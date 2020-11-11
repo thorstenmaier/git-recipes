@@ -17,3 +17,7 @@
 
 - Branch anlegen (`git branch branchname hash`)
 - Working Copy auf diesen Stand setzen (`git checkout branchname`)
+
+## Zwei Stände (Branches) zusammenbringen
+
+- Merge ausführen (`git merge name_des_anderen_branches`)
