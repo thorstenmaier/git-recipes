@@ -12,3 +12,8 @@
   - z.B. `touch neuedatei.txt`
 - neuedatei.txt in den Index aufnehemen (`git add neuedatei.txt`)
 - Commit erstellen (`git commit -m "Beschreibung der Änderung`)
+
+## Branch anlegen und Working Copy Stand wechseln
+
+- Branch anlegen (`git branch branchname hash`)
+- Working Copy auf diesen Stand setzen (`git checkout branchname`)
