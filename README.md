@@ -21,3 +21,19 @@
 ## Zwei Stände (Branches) zusammenbringen
 
 - Merge ausführen (`git merge name_des_anderen_branches`)
+
+## Konflikt auflösen
+
+### Wann tritt ein Konflikt auf?
+
+Konflikt tritt, falls auf in beiden Branches ein und dieselbe Zeile in einer Datei verändert wurde
+
+### Was müssen wir tun?
+
+- Wir starten einen Merge (`git merge anderer_branch`)
+- Merge -> es gibt einen Konflikt
+- Datei mit Konflikt öffnen
+- Merge-Marker entfernen
+- Datei speichern
+- Datei als konfliktfrei kennzeichnen (`git add dateiname`)
+- Commit abschließen (`git commit`)
