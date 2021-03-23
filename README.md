@@ -11,7 +11,7 @@
 - Eine Datei anlegen, ändern oder löschen
   - z.B. `touch neuedatei.txt`
 - neuedatei.txt in den Index aufnehemen (`git add neuedatei.txt`)
-- Commit erstellen (`git commit -m "Beschreibung der Änderung`)
+- Commit erstellen (`git commit -m "Beschreibung der Änderung"`)
 
 ## Branch anlegen und Working Copy Stand wechseln
 
